@@ -1,0 +1,309 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #333;
+    outline: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-decoration: underline;
+}
+
+    a:link, a:visited,
+    a:active, a:hover {
+        color: #333;
+    }
+
+    a:hover {
+        background-color: #c7d1d6;
+    }
+
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+header, footer, hgroup,
+nav, section {
+    display: block;
+}
+
+.header {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 80px;
+}
+
+.title {
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+.loginDisplay {
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: White;
+    vertical-align: bottom;
+}
+
+mark {
+    background-color: #a6dbed;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+
+h1, h2, h3,
+h4, h5, h6 {
+    color: #000;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5, h6 {
+    font-size: 1em;
+}
+
+    h5 a:link, h5 a:visited, h5 a:active {
+        padding: 0;
+        text-decoration: none;
+    }
+
+
+/* main layout
+----------------------------------------------------------*/
+.content-wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+#body {
+    background-color: #efeeef;
+    clear: both;
+    padding-bottom: 35px;
+    padding-left: 10px;
+}
+
+.main-content {
+    background: url("../Images/accent.png") no-repeat;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.featured + .main-content {
+    background: url("../Images/heroAccent.png") no-repeat;
+}
+
+header .content-wrapper {
+    padding-top: 20px;
+}
+
+footer {
+    clear: both;
+    background-color: #e2e2e2;
+    font-size: .8em;
+    height: 100px;
+}
+
+
+.fields {
+    font-weight: bold;
+}
+
+.fieldsBlok {
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000000;
+    text-align: left;
+}
+
+.fieldsBlokSon {
+    width: 100%;
+    border-top-style: double;
+    border-top-width: 2px;
+    border-top-color: #000000;
+    text-align: left;
+}
+
+
+input.textEntry {
+    width: 200px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry {
+    width: 200px;
+    border: 1px solid #ccc;
+}
+
+.failureNotification {
+    font-size: 1.2em;
+    color: Red;
+}
+
+td {
+    border: 1px solid #C0C0C0;
+    text-align: center;
+}
+
+.td_adi {
+    border: 1px solid #C0C0C0;
+    text-align: left;
+    width: 90px;
+    white-space: nowrap;
+}
+
+.td_adi_yazi_ishi {
+    border: 1px solid #C0C0C0;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #C0C0C0;
+}
+
+.td_Duz {
+    border: 1px solid #0000FF;
+    color: #0000FF;
+    text-align: center;
+}
+
+.td_Shev {
+    border: 1px solid #FF0000;
+    text-align: center;
+    color: #FF0000; /* background-color: #D4D4D4;*/
+}
+
+table {
+    border-style: solid;
+    border-width: 0px;
+    /*border-spacing: 0;*/
+    /*border-collapse:collapse;*/
+}
+
+.td0 {
+    border: 0;
+    text-align: center;
+}
+
+.td00 {
+    border: 0;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.td1 {
+    border: 0;
+    text-align: left;
+    vertical-align: top;
+}
+
+.divMelumat {
+    text-align: left;
+    width: auto;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+    display: block;
+}
+
+    .container .header {
+        margin: 1em 0;
+        padding: 1em;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .container .block1 {
+        margin: 0 auto;
+        text-align: left;
+        width: 400px;
+        padding: 0.5em;
+        border: 1px solid #C0C0C0;
+    }
+
+    .container .block2 {
+        float: left;
+        padding: 1em;
+        width: 100%;
+    }
+
+input.textEntry {
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry {
+    border: 1px solid #ccc;
+}
+
+h5 {
+    margin: 0.5em 0;
+}
+.td_ixtisas_cedvel_title {
+    border: 1px solid #C0C0C0;
+    color: Black;
+    /*font-style: italic;*/
+    font-weight: bold;
+}
+.td_Duz_ixtisas {
+    border: 1px solid #0000FF;
+    color: #0000FF;
+    text-align: center;
+    font-weight: bold;
+}
+
+.td_Duz_ixtisas_2 {
+    border: 1px solid #0000FF;
+    color: #0000FF;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+@media print {
+    .noprint {
+        display: none !important;
+    }
+}
